@@ -1,0 +1,21 @@
+.foto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.foto h1{
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foto p{
+	width: 48%;
+}
+.text h2{
+    text-align: center;
+    padding-top: 4rem;
+}
+.text p{
+    text-align: center;
+    
+}

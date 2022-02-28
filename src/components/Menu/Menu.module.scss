@@ -1,0 +1,34 @@
+.hedr{
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;
+    padding-top: 3rem;
+    align-items: center;
+}
+.hedr2{
+    white-space: normal;	
+	width: 32%;
+}
+.hedr2 h1{
+    font-size: 5rem;
+    color: #19191B;
+    font-family: DMSans;
+}
+.hedr2 h4{
+    white-space: normal;	
+	width: 66%;
+}
+.hedr button{
+    padding: 12px 32px;
+    background-color: #5454D4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 2rem;
+}
+.hedr button:hover{
+    background: #02023a;
+    transition: .7s;
+}
