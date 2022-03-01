@@ -2,11 +2,14 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import s from './Header.module.scss'
 import { Dropdown } from 'react-bootstrap'
+import log from '../../image/logo/chasy_kg_logo-b.png'
 const Header = () => {
   return (
     <div>
       <ul className={s.menu}>
-
+    <li>
+      <img src={log} />
+    </li>
       <Dropdown>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
     КАТАЛОГ ЧАСОВ
